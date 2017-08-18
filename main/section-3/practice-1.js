@@ -8,7 +8,7 @@ function includes(collection, ch) {
 module.exports = function createUpdatedCollection(collectionA, objectB) {
     let result = [];
 
-        collectionA.forEach(item =>{
+    collectionA.forEach(item => {
         let key = item.key;
         let count = item.count;
         if (includes(objectB.value, key)) {
