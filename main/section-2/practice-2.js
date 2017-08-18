@@ -27,9 +27,10 @@ function split(item) {
 }
 
 function push(result, key, count) {
-    for (var i = 0; i < count; i++) {
+    let number = 1;
+
+    while (count >= number++)
         result.push(key);
-    }
 }
 
 function expand(collection) {
